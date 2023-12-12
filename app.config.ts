@@ -1,38 +1,58 @@
 export default defineAppConfig({
   docus: {
-    title: 'Docus',
+    title: 'Avenbreaks Docus',
     description: 'The best place to start your documentation.',
-    image: 'https://user-images.githubusercontent.com/904724/185365452-87b7ca7b-6030-4813-a2db-5e65c785bf88.png',
+    image: 'https://kavn.sgp1.cdn.digitaloceanspaces.com/homepage.png',
+
     socials: {
-      twitter: 'nuxt_js',
-      github: 'nuxt-themes/docus',
+      twitter: 'joyy_wibowo',
+      github: 'avenbreaks/docs-nuxt-studio',
+
       nuxt: {
         label: 'Nuxt',
         icon: 'simple-icons:nuxtdotjs',
         href: 'https://nuxt.com'
-      }
+      },
+
+      instagram: 'joy_soejoy'
     },
+
     github: {
       dir: '.starters/default/content',
-      branch: 'main',
-      repo: 'docus',
-      owner: 'nuxt-themes',
-      edit: true
+      branch: 'master',
+      repo: 'docs-nuxt-studio',
+      owner: 'avenbreaks',
+      edit: true,
+      baseUrl: ''
     },
+
     aside: {
       level: 0,
       collapsed: false,
       exclude: []
     },
+
     main: {
       padded: true,
       fluid: true
     },
+
     header: {
-      logo: true,
+      logo: false,
       showLinkIcon: true,
       exclude: [],
-      fluid: true
-    }
+      fluid: true,
+      title: 'Avenbreaks Docs'
+    },
+
+    footer: {
+      credits: {
+        icon: '',
+        text: 'Powered by Kvantum Labs',
+        href: 'https://kvantum.guru'
+      }
+    },
+
+    titleTemplate: 'docs-nuxt-studio'
   }
 })
