@@ -5,7 +5,6 @@ export default defineNuxtConfig({
 
   modules: [
     '@nuxtjs/plausible',
-    '@use-wagmi/nuxt',
     '@nuxthq/studio',
   ]
 })
