@@ -17,10 +17,10 @@
     "@types/node": "^20.8.2",
     "@use-wagmi/nuxt": "^1.1.8",
     "eslint": "^8.50.0",
-    "nuxt": "^3.7.4"
+    "nuxt": "^3.9.1"
   },
   "dependencies": {
-    "@nuxthq/studio": "^1.0.5",
+    "@nuxthq/studio": "^1.0.6",
     "add": "^2.0.6",
     "bugsnag": "^2.4.3",
     "module": "^1.2.5",
